@@ -6,24 +6,23 @@
 	
 	<title>2024 Summer Solstice</title>
 	<style>
-			/*body {font-size: 16px}*/
-			.introText {color: #000000; margin-left: 10px; text-indent: 10px;}
-			.storyText {color: #000000; background-color: #EEEEEE; margin-left: 10px; text-indent: 10px;}			
-			p1 {color: #000000; background-color: #EEEEEE;}
-			@media screen and (max-width: 600px) {
-				.mobiletext {font-size:5vw;}
-				}
+		p1 {color: #000000; background-color: #EEEEEE; max-width: 600px;}
+		@media screen and (max-width: 600px) {
+			.mobiletext {font-size:5vw; text-transform:uppercase}
+			}
 	</style>
 </head>
 	
 <body>
 	<div class="mobiletext">
 <!-- top section -->
-	<table style="width:1022px; height: 700px; background-image: url('images/tree_top.png'); background-position: left bottom;">
+	<table style="width:1022px; height: 400px; background-image: url('images/tree_top.png'); background-position: left bottom;">
 		<tr>
 			<td style="vertical-align:top"> <!-- class="topalign"-->
-			<p1>background image from <a href="https://commons.wikimedia.org/wiki/File:Tree_Transparent_Background.png">Wikimedia Commons</a>, 
-				licensed under the <a href="https://en.wikipedia.org/wiki/en:Creative_Commons">Creative Commons</a> <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.en">Attribution-Share Alike 4.0 International</a> license.
+				<br>
+				<br>
+				<p1>background image from <a href="https://commons.wikimedia.org/wiki/File:Tree_Transparent_Background.png">Wikimedia Commons</a>, 
+					licensed under the <a href="https://en.wikipedia.org/wiki/en:Creative_Commons">Creative Commons</a> <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.en">Attribution-Share Alike 4.0 International</a> license.
 				</p1>
 				<br>
 			</td>
@@ -36,21 +35,20 @@
 				<br>
 				<p1>Current inhabitants and past lore</p1>
 				<br>
-				<br>&nbsp&nbsp&nbsp[]
-				<br>&nbsp&nbsp&nbsp[]
-				<br>&nbsp&nbsp\||/
-				<br>&nbsp&nbsp&nbsp\/
 			</td>
 	</table>
 	
 <!-- middle section -->
 	<!--table for organizing pictures and text pieces. bg img height 790px last table row used to align with trunk of tree -->
 			
-		<table cellpadding="32"; style="width:1022px; background-image: url('images/tree_mid.png'); background-repeat: repeat-y;">
-		<div class="storyText">	
+		<table style="width:1022px; background-image: url('images/tree_mid.png'); background-repeat: repeat-y;">
+		<tr>
+			<td>
+				
+		<table cellpadding="30"; style="width:800px;">
 			<tr>
 				<td>
-	  				<img src="images/045935_resized.jpg" width="800px" alt="WhiteRabbitEmissary" align="top">
+	  				<img src="images/045935_resized.jpg" width="700px" alt="WhiteRabbitEmissary" align="top">
 					<br>
 					<br>
 					<p1>The Emissary did not run, but calmly regarded me, which I must take to be a fair omen</p1>
@@ -176,7 +174,7 @@
 				
 			<tr>
 				<td>
-					<img src="images/055200.jpg" width="850px" alt="deeper [aths">
+					<img src="images/055200.jpg" width="700px" alt="deeper [aths">
 					<br>
 					<br>
 					 <p1>This looks like a path that leads Away. I shall not test it.</p1>
@@ -507,7 +505,7 @@
 			</tr>
 
 			<!-- spacer to align leaves to trunk in background images-->
-			<tr style="height:180px;">
+			<tr style="height:430px;">
 				<td>
 					<br>
 					<br>
@@ -525,10 +523,11 @@
   			</tr>
 	-->		
 			
-		</div>  <!-- closes the story text div -->	
 		</table>
 			
-	
+			</td>
+		</tr>
+		</table>
 	<!-- bottom section -->
 		<table style="width:1022px; height:1300px; background-image: url('images/tree_bottom.png');"> 
 			<tr>
@@ -537,7 +536,7 @@
 			</tr>
 		</table>
 
-	</div>		
+	</div>		<!-- close the mobiletext div -->
 </body>
 		
 </html>
